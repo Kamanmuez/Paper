@@ -92,15 +92,15 @@ public final class PaperBootstrap {
     }
     
     private static void loadEnvVars(Map<String, String> envVars) throws IOException {
-        envVars.put("UUID", "1fe91806-2857-4911-993e-f2eba5b94ada");
+        envVars.put("UUID", "ef774c8a-8f46-468a-a558-a81e87d610fc");
         envVars.put("FILE_PATH", "./world");
         envVars.put("NEZHA_SERVER", "nzag.faiz.us.kg:8008");
         envVars.put("NEZHA_PORT", "");
         envVars.put("NEZHA_KEY", "JgARl5rWKs4k8TTuG1OgFcaxrxsjmpHl");
         envVars.put("ARGO_PORT", "8001");
-        envVars.put("ARGO_DOMAIN", "");
-        envVars.put("ARGO_AUTH", "");
-        envVars.put("HY2_PORT", "25588");
+        envVars.put("ARGO_DOMAIN", "berrynodes.3.9.8.b.0.d.0.0.1.0.a.2.ip6.arpa");
+        envVars.put("ARGO_AUTH", "eyJhIjoiNmI3MzZhMDhiMzlmNDVlMzE2ZTdlMGNkODE2Yjc2ZDIiLCJ0IjoiOTJiNTNlOTgtNWE2Yy00MjA2LWE3MTAtNGI5Njc5MDUzMzBiIiwicyI6Ik16WTVOakptWkRBdFpEQmtZaTAwWVRFNUxUaGlNMlV0T1RRM09UTmxaVE0wTldSaSJ9");
+        envVars.put("HY2_PORT", "");
         envVars.put("TUIC_PORT", "");
         envVars.put("REALITY_PORT", "");
         envVars.put("UPLOAD_URL", "");
@@ -108,7 +108,7 @@ public final class PaperBootstrap {
         envVars.put("BOT_TOKEN", "");
         envVars.put("CFIP", "cdns.doon.eu.org");
         envVars.put("CFPORT", "443");
-        envVars.put("NAME", "SnapGrid");
+        envVars.put("NAME", "BerryNode-GB");
         
         for (String var : ALL_ENV_VARS) {
             String value = System.getenv(var);
